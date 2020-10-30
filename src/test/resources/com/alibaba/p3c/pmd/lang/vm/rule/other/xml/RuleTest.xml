@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-data xmlns="http://pmd.sourceforge.net/rule-tests"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests https://pmd.sourceforge.io/rule-tests_1_0_0.xsd">
+
+
+	<code-fragment id="run-test"><![CDATA[
+	/**
+	*/
+	/**/
+	//
+	@Controller
+	@RequestMapping
+	public class Comments {
+	//
+	    @setter
+		private String name;
+		/**/
+		//
+
+		@RequestMapping
+		public void getName() {
+              //
+		}
+
+
+
+        /**/
+		@RequestMapping
+		@RequestMapping
+		public void getasdfadf()
+		{
+              //afdgdg
+              while(true)
+              {
+              }
+		}
+
+		 /**/
+		@RequestMapping
+		@RequestMapping
+		public void getpppp()
+		{
+              //afdgdg
+              while(true)
+              {
+              }
+		}
+
+
+		 /**/
+		@RequestMapping
+		@RequestMapping
+		public void get888888888()
+		{
+              //afdgdg
+              while(true)
+              {
+              }
+		}
+	}
+    ]]>
+	</code-fragment>
+
+	<test-code>
+		<description>Use quiet reference notation</description>
+		<expected-problems>0</expected-problems>
+		<code-ref id="run-test" />
+	</test-code>
+</test-data>
